@@ -1,19 +1,12 @@
 core = 7.x
 api = 2
 
-projects[] = drupal
-
-; Modules
-projects[] = views
-projects[] = ctools
-projects[] = admin_menu
-projects[] = module_filter
-projects[] = token
-projects[] = pathauto
-projects[] = link
-projects[] = backup_migrate4
-projects[] = wysiwyg
-projects[] = devel 
+; include always needed modules
+includes[] = https://raw.github.com/scubafly/drupal-make-files/master/d7.make
+; get modules needed for vacature site
 projects[] = features
 projects[] = search_api
 projects[] = search_api_solr
+projects[] = admin_devel
+projects[] = admin_menu
+projects[] = ds
