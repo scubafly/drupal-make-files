@@ -8,3 +8,9 @@ projects[] = features
 projects[] = search_api
 projects[] = search_api_solr
 projects[] = ds
+
+; Custom profile
+projects[vacatures][type] = "profile"
+projects[vacatures][download][type] = "git"
+projects[vacatures][download][url] = "git@github.com:scubafly/d7_vacature_profile.git"
+
