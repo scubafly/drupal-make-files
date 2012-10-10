@@ -7,6 +7,4 @@ includes[] = https://raw.github.com/scubafly/drupal-make-files/master/d7.make
 projects[] = features
 projects[] = search_api
 projects[] = search_api_solr
-projects[] = admin_devel
-projects[] = admin_menu
 projects[] = ds
