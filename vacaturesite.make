@@ -12,5 +12,4 @@ projects[] = ds
 ; Custom profile
 projects[vacatures][type] = "profile"
 projects[vacatures][download][type] = "git"
-projects[vacatures][download][url] = "git@github.com:scubafly/d7_vacature_profile.git"
-
+projects[vacatures][download][url] = "git://github.com/scubafly/d7_vacature_profile.git"
