@@ -29,3 +29,9 @@ projects[jack_standaard][download][url] = "git://github.com/scubafly/jack_standa
 ; are already included
 ;projects[] = admin_devel
 ;projects[] = views_ui
+
+; libaries
+libraries[jquery][download][type] = "file"
+libraries[jquery][download][url] = "https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"
+libraries[jqueryui][download][type] = "file"
+libraries[jqueryui][download][url] = "https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/jquery-ui.min.js"
