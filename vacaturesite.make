@@ -1,4 +1,4 @@
-dcore = 7.x
+core = 7.x
 api = 2
 
 ; include always needed modules
@@ -18,8 +18,6 @@ projects[vacatures][download][url] = "git://github.com/scubafly/d7_vacature_prof
 ; projects[naam_profiel][download][tag] = 7.x-1.0  
 ; tag kan eventueel ook branch zijn
 ; projects[naam_profiel][download][branch] = 7.x-1.x
-
-
 
 ;todo
 ; google analytics
