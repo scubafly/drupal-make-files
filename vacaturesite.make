@@ -1,8 +1,9 @@
-core = 7.x
+dcore = 7.x
 api = 2
 
 ; include always needed modules
 includes[] = https://raw.github.com/scubafly/drupal-make-files/master/d7.make
+
 ; get modules needed for vacature site
 projects[] = features
 ;projects[] = search_api
@@ -18,11 +19,9 @@ projects[vacatures][download][url] = "git://github.com/scubafly/d7_vacature_prof
 ; tag kan eventueel ook branch zijn
 ; projects[naam_profiel][download][branch] = 7.x-1.x
 
-;tofix
-; solr
+
 
 ;todo
-; wyiwyge
 ; google analytics
 ; overige modules
 ; gebruikers profielen
