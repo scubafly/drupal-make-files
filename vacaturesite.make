@@ -10,7 +10,14 @@ projects[] = features
 ;projects[] = search_api_solr
 projects[] = ds
 
-; Custom profile
+; Custom modules
+; Popover module
+projects[popover][subdir] = "custom"
+projects[popover][type] = "module"
+projects[popover][download][type] = "git"
+projects[popover][download][url]="git://github.com/scubafly/d7_popover.git"
+
+; Custom install profile
 projects[vacatures][type] = "profile"
 projects[vacatures][download][type] = "git"
 projects[vacatures][download][url] = "git://github.com/scubafly/d7_vacature_profile.git"
