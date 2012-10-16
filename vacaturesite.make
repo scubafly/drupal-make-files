@@ -17,6 +17,54 @@ projects[popover][type] = "module"
 projects[popover][download][type] = "git"
 projects[popover][download][url]="git://github.com/scubafly/d7_popover.git"
 
+; vacancies module
+projects[vacancies][subdir] = "custom"
+projects[vacancies][type] = "module"
+projects[vacancies][download][type] = "git"
+projects[vacancies][download][url]="git://github.com/scubafly/d7_vacancies.git"
+
+; vacancies_manage module
+projects[vacancies_manage][subdir] = "custom"
+projects[vacancies_manage][type] = "module"
+projects[vacancies_manage][download][type] = "git"
+projects[vacancies_manage][download][url]="git://github.com/scubafly/d7_vacancies_manage.git"
+
+; socialcons module
+projects[socialcons][subdir] = "custom"
+projects[socialcons][type] = "module"
+projects[socialcons][download][type] = "git"
+projects[socialcons][download][url]="git://github.com/scubafly/d7_socialcons.git"
+
+; pop_links module
+projects[pop_links][subdir] = "custom"
+projects[pop_links][type] = "module"
+projects[pop_links][download][type] = "git"
+projects[pop_links][download][url]="git://github.com/scubafly/d7_pop_links.git"
+
+; job_agent module
+projects[job_agent][subdir] = "custom"
+projects[job_agent][type] = "module"
+projects[job_agent][download][type] = "git"
+projects[job_agent][download][url]="git://github.com/scubafly/d7_job_agent.git"
+
+; click_stats module
+projects[click_stats][subdir] = "custom"
+projects[click_stats][type] = "module"
+projects[click_stats][download][type] = "git"
+projects[click_stats][download][url]="git://github.com/scubafly/d7_click_stats.git"
+
+; bannert module
+projects[bannert][subdir] = "custom"
+projects[bannert][type] = "module"
+projects[bannert][download][type] = "git"
+projects[bannert][download][url]="git://github.com/scubafly/d7_bannert.git"
+
+; pupdate module
+projects[pupdate][subdir] = "custom"
+projects[pupdate][type] = "module"
+projects[pupdate][download][type] = "git"
+projects[pupdate][download][url]="git://github.com/scubafly/d7_pupdate.git"
+
 ; Custom install profile
 projects[vacatures][type] = "profile"
 projects[vacatures][download][type] = "git"
