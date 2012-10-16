@@ -59,11 +59,11 @@ projects[bannert][type] = "module"
 projects[bannert][download][type] = "git"
 projects[bannert][download][url]="git://github.com/scubafly/d7_bannert.git"
 
-; pupdate module
-projects[pupdate][subdir] = "custom"
-projects[pupdate][type] = "module"
-projects[pupdate][download][type] = "git"
-projects[pupdate][download][url]="git://github.com/scubafly/d7_pupdate.git"
+; pubdate module
+projects[pubdate][subdir] = "custom"
+projects[pubdate][type] = "module"
+projects[pubdate][download][type] = "git"
+projects[pubdate][download][url]="git://github.com/scubafly/d7_pubdate.git"
 
 ; Custom install profile
 projects[vacatures][type] = "profile"
