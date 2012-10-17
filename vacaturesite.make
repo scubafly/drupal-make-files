@@ -65,9 +65,11 @@ projects[pubdate][type] = "module"
 projects[pubdate][download][type] = "git"
 projects[pubdate][download][url]="git://github.com/scubafly/d7_pubdate.git"
 
-; theme inclusion
-projects[at_biz][subdir] = "custom"
-projects[at_biz][type] = "module"
+; adaptivetheme theme
+projects[] = adaptivetheme
+
+; at_biz theme
+projects[at_biz][type] = "theme"
 projects[at_biz][download][type] = "git"
 projects[at_biz][download][url]="git://github.com/scubafly/at_biz.git"
 
