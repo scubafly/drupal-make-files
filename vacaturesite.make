@@ -65,10 +65,17 @@ projects[pubdate][type] = "module"
 projects[pubdate][download][type] = "git"
 projects[pubdate][download][url]="git://github.com/scubafly/d7_pubdate.git"
 
+; theme inclusion
+projects[at_biz][subdir] = "custom"
+projects[at_biz][type] = "module"
+projects[at_biz][download][type] = "git"
+projects[at_biz][download][url]="git://github.com/scubafly/at_biz.git"
+
 ; Custom install profile
 projects[vacatures][type] = "profile"
 projects[vacatures][download][type] = "git"
 projects[vacatures][download][url] = "git://github.com/scubafly/d7_vacature_profile.git"
+
 ; eventueel tag / branch toevoegen kan zo:
 ; projects[naam_profiel][download][tag] = 7.x-1.0  
 ; tag kan eventueel ook branch zijn
