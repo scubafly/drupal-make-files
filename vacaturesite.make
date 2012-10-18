@@ -10,6 +10,7 @@ projects[] = features
 ;projects[] = search_api_solr
 projects[] = ds
 projects[] = pop_links
+projects[] = votingapi
 
 ; Custom modules
 ; Popover module
